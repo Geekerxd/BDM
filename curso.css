@@ -242,23 +242,15 @@ div.secDescripcion{
     margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
-    border-style: inset;
-    border-width: 5px;
-    border-left-color: #204c73;
-    border-top-color: #204c73;
-    border-right-color: #F29849;
-    border-bottom-color: #F29849;
+    border: #275d8c inset 10px;
     border-radius: 10px;
 }
 
 div.secDescripcion h1{
     text-align: center;
-    font-size: 50px;
     background-color: #275d8c59 ;
     padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: #204c73;
 }
 
 div.secDescripcion div.imgDescripcion{
@@ -267,6 +259,48 @@ div.secDescripcion div.imgDescripcion{
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: #F29849 solid 5px;
+    border-radius: 5px;
+}
+
+div.secDescripcion h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////Contenido de Curso/////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////*/
+
+div.contenidoCurso{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+div.contenidoCurso div.nombreCurso{
+    text-align: center;
+    background-color: #275d8c59;
+    border-style: inset;
+    border-width: 5px;
+    border-left-color: #204c73;
+    border-top-color: #204c73;
+    border-right-color: #F29849;
+    border-bottom-color: #F29849;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #204c73;
+}
+
+div.contenidoCurso div.imgCurso{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 597px;
+    margin-left: auto;
+    margin-right: auto;
     border-style: outset;
     border-width: 5px;
     border-left-color: #204c73;
@@ -276,18 +310,8 @@ div.secDescripcion div.imgDescripcion{
     border-radius: 5px;
 }
 
-div.secDescripcion h4{
-    text-align: center;
+div.contenidoCurso div.descCurso{
+    text-align: justify;
     font-family: 'Roboto', sans-serif;
-}
-
-
-/*////////////////////////////////////////////////////////////////////////////////
-/////////////////////////cartas para cursos//////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////*/
-
-
-.material-icons.md-xx { 
-    font-size: 18px; 
-    color: #275d8c;
+    font-size: larger;
 }
